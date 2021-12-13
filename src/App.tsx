@@ -10,7 +10,7 @@ const App = () => {
     return !!token;
   };
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Projects/test-task">
       <Routes>
         <Route path="/" element={<UserLoginPage />} />
         <Route path="/users" element={isLoggedIn() ? <UserListPage /> : null} />
