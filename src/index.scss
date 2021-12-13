@@ -17,6 +17,7 @@ li {
 h1 {
   text-align: center;
   color: $secondary-color;
+  font-size: 1.2rem;
 }
 a {
   text-decoration: none;
@@ -25,17 +26,18 @@ a {
 input,
 textarea,
 select,
-button {
+button,
+li {
   margin: 0;
   -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
   -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
   box-sizing: border-box;
 }
 input[type='checkbox'] {
-  -ms-transform: scale(1.8); /* IE */
-  -moz-transform: scale(1.8); /* FF */
-  -webkit-transform: scale(1.8); /* Safari and Chrome */
-  -o-transform: scale(1.8); /* Opera */
-  transform: scale(1.8);
-  margin: 8px;
+  -ms-transform: scale(1.1); /* IE */
+  -moz-transform: scale(1.1); /* FF */
+  -webkit-transform: scale(1.1); /* Safari and Chrome */
+  -o-transform: scale(1.1); /* Opera */
+  transform: scale(1.1);
+  margin: 3px;
 }

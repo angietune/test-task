@@ -2,9 +2,10 @@
 @import '../../font';
 
 .page-numbers {
+  box-sizing: border-box;
   display: flex;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -14,6 +15,7 @@
 }
 .page-item {
   width: 20px;
+  border: 2px solid transparent;
 }
 .page-item-edge {
   width: auto;
