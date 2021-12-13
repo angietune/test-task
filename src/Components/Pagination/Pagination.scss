@@ -1,0 +1,28 @@
+@import '../../variables';
+@import '../../font';
+
+.page-numbers {
+  box-sizing: border-box;
+  display: flex;
+  text-align: center;
+  font-size: 1.1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin: 20px 0;
+  font-family: 'Inter';
+}
+.page-item {
+  width: 20px;
+  border: 2px solid transparent;
+}
+.page-item-edge {
+  width: auto;
+}
+.disabled {
+  display: none;
+}
+.active {
+  border-bottom: 2px solid $primary-color;
+}

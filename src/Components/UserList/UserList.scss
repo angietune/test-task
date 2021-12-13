@@ -1,0 +1,44 @@
+@import '../../variables';
+@import '../../font';
+
+.list-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.list {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  font-family: 'Inter';
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  columns: 3;
+  padding: 0 15%;
+}
+.list-item:first-child {
+  border-top: 15px solid $primary-color;
+}
+.list-item:nth-child(even) {
+  background-color: $dark-secondary-color;
+}
+.list-item:nth-child(odd) {
+  background-color: $white-color;
+}
+
+.list-item svg {
+  width: 20px;
+}
+.id,
+.more {
+  margin-bottom: 5px;
+}
+.info,
+.moreinfo {
+  width: 40%;
+}
