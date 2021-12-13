@@ -1,0 +1,41 @@
+@import './variables';
+@import './font';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: $background-color;
+  color: $secondary-color;
+}
+li {
+  list-style: none;
+}
+h1 {
+  text-align: center;
+  color: $secondary-color;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+  -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+  box-sizing: border-box;
+}
+input[type='checkbox'] {
+  -ms-transform: scale(1.8); /* IE */
+  -moz-transform: scale(1.8); /* FF */
+  -webkit-transform: scale(1.8); /* Safari and Chrome */
+  -o-transform: scale(1.8); /* Opera */
+  transform: scale(1.8);
+  margin: 8px;
+}
