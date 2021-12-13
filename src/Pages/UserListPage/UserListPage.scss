@@ -1,0 +1,29 @@
+@import '../../variables';
+@import '../../font';
+
+.title {
+  font-family: 'Inter';
+  font-size: 3rem;
+  padding: 20px;
+}
+.logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: $dark-secondary-color;
+  width: 100%;
+  height: 60px;
+  font-family: 'Inter';
+  cursor: pointer;
+}
+.logout svg {
+  width: 25px;
+  fill: $secondary-color;
+}
+.users {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
